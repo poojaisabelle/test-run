@@ -1,0 +1,96 @@
+/* Body Styling */ 
+body{
+  background-color: rgb(236, 234, 234);
+}
+
+/* Navigation Bar Styling */
+.navbar{
+  min-height: 60px;
+}
+
+.navigation .navbar-brand{
+  color: white;
+  margin-left: 30px;
+  padding: 8px 8px;
+  font-weight: bold;
+  background-color: #0BADA6;
+  font-family: Georgia, serif;
+}
+
+.navbar{
+  background-color: white;
+}
+ 
+.navbar-brand:hover{
+  color: rgb(236, 234, 234) !important;
+  }
+
+.dropdown-menu .dropdown-item:active a:hover{
+  background-color: rgb(236, 234, 234) !important; 
+}
+
+.dropdown-item{
+  color: #0BADA6;
+}
+
+.dropdown .dropdown-menu .dropdown-item:active, .dropdown .dropdown-menu .dropdown-item:hover{
+  color: black;
+}
+
+.nav-link:hover{
+  background-color: rgb(236, 234, 234);
+}
+
+/* Box Styling */
+.box{
+  background-color: white;
+  margin-top: 60px;
+  margin-bottom: 60px;
+  padding:20px 20px 20px;
+}
+
+/* 2x2 Panel Styling */
+img{
+  width:100% !important;
+  height:100% !important;
+
+}
+
+/* Landing Visualisation Styling */
+.plot{
+  width:50% !important;
+  height:50% !important;
+}
+
+/* Title Styling */
+.title{
+  color: #0BADA6;
+  font-family: Georgia, serif;
+  font-weight: bold;
+
+}
+
+/* Paragraph Styling */
+p{
+  color: darkslategrey;
+  font-family: Georgia, serif;
+  font-size: 16px;
+}
+
+
+/* Creating a responsive Navbar using Media Queries */
+@media (max-width: 992px) {
+  .navbar-expand-lg {
+    background-color:#0BADA6;
+  }}
+
+.navbar{
+  padding: inherit;
+}
+
+/* Makes sure the dropdown menu for smaller screens has a white background */
+.navbar div{
+  margin: inherit;
+  background-color: white;
+}
+
